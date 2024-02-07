@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcion</title>
+    <style>
+        body{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+        }
+        h1{
+            padding-top: 10vh;
+        }
+        label, input{
+            padding-bottom: 2vh;
+        }
+        input, button{
+            border-radius: 5px;
+            background-color: rgba(169, 169, 169, 0.507);
+            color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Buscar por DNI
+    </h1>
+    <form>
+        <label for="dni">
+            DNI: 
+        </label>
+        <input type="text" name="dni" id="dni"><br><br>
+
+        <button type="button" onclick="buscar()">
+            Buscar
+        </button><br><br>
+
+        <label for="edad">
+            EDAD: 
+        </label>
+        <input type="text" name="edad" id="edad"><br><br>
+
+        <label for="direccion">
+            DIRECCION: 
+        </label>
+        <input type="text" name="direccion" id="direccion"><br><br>
+
+        <button type="reset">
+            Borrar
+        </button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
